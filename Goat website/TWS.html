@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWS</title>
+     <link rel="icon" href="/iceico/Goat assests/Goat_LOGO2.png" type="image/x-icon">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="cards1.css">
+    <style>
+        .k2 .container-item img {
+            object-fit: cover;
+
+            width: 100%;
+            height: 70%;
+            border: 1px solid lightgray;
+            border-radius: 0px !important;
+            transition: transform 0.6s ease-out, box-shadow 0.3s ease;
+        }
+
+        .video {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 90vh;
+            overflow: hidden;
+            align-content: flex-start;
+        }
+
+        .video video {
+            z-index: -100;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            object-fit: cover;
+        }
+
+        @media (max-width: 1200px) {
+            .video {
+
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+                object-position: top;
+            }
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div class="video img">
+        <video autoplay muted loop>
+            <source src="/iceico/Goat assests/Tws assests/BeatpodsVideo.mp4" type="video/mp4">
+        </video>
+    </div>
+   
+     <div class="parentDivFirst">
+
+        <div class="k2" style="margin-top: 150px;">
+
+            <div class="container-item">
+                <a target="_blank" href="/iceico/Goat assests/Tws assests/BeatPods.png">
+                    <img src="/iceico/Goat assests/Tws assests/BeatPods.png" alt="BeatPods" width="300"
+                        height="300"></a>
+                <div class="card-content">
+                    <h6 class="fourdivsubtitle"><a href="#" class="fourdivsubtitle-child">BeatPods Pro</a></h6>
+                    <h6 class="powerbank">50Hrs Playtime</h6>
+                    <h6 class="graytext">13MM Drivers</h6>
+                </div>
+            </div>
+
+            <div class="container-item">
+                <a target="_blank" href="/iceico/Goat assests/Tws assests/BeatPods Stone.jpeg">
+                    <img src="/iceico/Goat assests/Tws assests/BeatPods Stone.jpeg" alt="BeatPods Stone" width="300"
+                        height="300"></a>
+                <div class="card-content">
+                    <h6 class="fourdivsubtitle"><a href="#" class="fourdivsubtitle-child">BeatPods Stone</a></h6>
+                    <h6 class="powerbank">50Hrs Playtime</h6>
+                    <h6 class="graytext">Smart ENC</h6>
+                </div>
+            </div>
+
+            <div class="container-item">
+                <a target="_blank" href="/iceico/Goat assests/Tws assests/BeatPodsLuxe.jpeg">
+                    <img src="/iceico/Goat assests/Tws assests/BeatPodsLuxe.jpeg" alt="BeatPodsLuxe" width="300"
+                        height="300"></a>
+                <div class="card-content">
+                    <h6 class="fourdivsubtitle"><a href="#" class="fourdivsubtitle-child">BeatPods Luxe</a></h6>
+                    <h6 class="powerbank">35Hrs Playtime</h6>
+                    <h6 class="graytext">Smart ENC</h6>
+                </div>
+            </div>
+
+            <div class="container-item">
+                <!-- <a target="_blank" href="/iceico/Goat assests/neckband Asests/RhythmXtreme1.jpg">
+                    <img src="/iceico/Goat assests/neckband Asests/RhythmXtreme1.jpg" alt="RhythmXtreme1" width="300"
+                        height="300"></a>
+                <div class="card-content">
+                    <h6 class="fourdivsubtitle"><a href="#" class="fourdivsubtitle-child">Rhythm Xtreme</a></h6>
+                    <h6 class="powerbank">70 Hours Playtime</h6>
+                    <h6 class="graytext">Stereo Sound</h6>
+                </div> -->
+            </div>
+
+           
+        </div>
+    </div>
+     <div id="footer" style="margin-top: 200px;"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>

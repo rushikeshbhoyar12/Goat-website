@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neckband</title>
+    <link rel="icon" href="/iceico/Goat assests/Goat_LOGO2.png" type="image/x-icon">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="cards1.css">
+    <style>
+        .k2 .container-item img {
+            object-fit: cover;
+
+            width: 100%;
+            height: 70%;
+            border: 1px solid lightgray;
+            border-radius: 0px !important;
+            transition: transform 0.6s ease-out, box-shadow 0.3s ease;
+        }
+
+        .video {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 90vh;
+            overflow: hidden;
+            align-content: flex-start;
+        }
+
+        .video video {
+            z-index: -100;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            object-fit: cover;
+        }
+
+        @media (max-width: 1200px) {
+            .video {
+
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+                object-position: top;
+            }
+        }
+
+        .imgFront {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            height: 100VH;
+            align-content: flex-start;
+
+        }
+
+        .imgFront img {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media(max-width: 1200px) {
+            .imgFront {
+                width: 100%;
+                height: 300px;
+                margin-top: 3px;
+            }
+
+            .imgFront img {
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div class="video img">
+        <video autoplay muted loop>
+            <source src="/iceico/Goat assests/neckband Asests/RhythmBlazewebsitecreativevideo.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="imgFront">
+        <img src="/iceico/Goat assests/neckband Asests/RedAestheticSkincare.png" alt="image">
+    </div>
+    <div class="parentDivFirst">
+
+        <div class="k2" style="margin-top: 150px;">
+
+            <div class="container-item">
+                <a target="_blank" href="/iceico/Goat assests/neckband Asests/RhythmBlaze.png">
+                    <img src="/iceico/Goat assests/neckband Asests/RhythmBlaze.png" alt="RhythmBlaze" width="300"
+                        height="300"></a>
+                <div class="card-content">
+                    <h6 class="fourdivsubtitle"><a href="#" class="fourdivsubtitle-child">Rhythm Blaze</a></h6>
+                    <h6 class="powerbank">60H Playtime</h6>
+                    <h6 class="graytext">Magnetic Switch & Vibration Alert</h6>
+                </div>
+            </div>
+
+            <div class="container-item">
+                <a target="_blank" href="/iceico/Goat assests/neckband Asests/RhythmX.png">
+                    <img src="/iceico/Goat assests/neckband Asests/RhythmX.png" alt="RhythmX" width="300"
+                        height="300"></a>
+                <div class="card-content">
+                    <h6 class="fourdivsubtitle"><a href="#" class="fourdivsubtitle-child">Rhythm X</a></h6>
+                    <h6 class="powerbank">50H playtime</h6>
+                    <h6 class="graytext">Magnetic Switch</h6>
+                </div>
+            </div>
+
+            <div class="container-item">
+                <a target="_blank" href="/iceico/Goat assests/neckband Asests/noteuser.jpeg">
+                    <img src="/iceico/Goat assests/neckband Asests/noteuser.jpeg" alt="NoteUser" width="300"
+                        height="300"></a>
+                <div class="card-content">
+                    <h6 class="fourdivsubtitle"><a href="#" class="fourdivsubtitle-child">Rhythm Note</a></h6>
+                    <h6 class="powerbank">Bluetooth 5.3</h6>
+                    <h6 class="graytext">Voice Assistant Support</h6>
+                </div>
+            </div>
+
+            <div class="container-item">
+                <a target="_blank" href="/iceico/Goat assests/neckband Asests/RhythmXtreme1.jpg">
+                    <img src="/iceico/Goat assests/neckband Asests/RhythmXtreme1.jpg" alt="RhythmXtreme1" width="300"
+                        height="300"></a>
+                <div class="card-content">
+                    <h6 class="fourdivsubtitle"><a href="#" class="fourdivsubtitle-child">Rhythm Xtreme</a></h6>
+                    <h6 class="powerbank">70 Hours Playtime</h6>
+                    <h6 class="graytext">Stereo Sound</h6>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div id="footer" style="margin-top: 200px;"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>

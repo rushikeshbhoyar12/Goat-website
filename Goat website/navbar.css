@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .no-scroll {
+    overflow-y: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+nav ul {
+    margin-bottom: 0;
+}
+
+.logo {
+    position: relative;
+    top: 2px;
+    width: 80px;
+    height: 40px;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 40px;
+    gap: 35px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu-btn {
+    margin-left: auto;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: none;
+    z-index: 998;
+}
+
+.sidebar {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 60%;
+    max-width: 420px;
+    background: white;
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+
+.sidebar-header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.close-btn {
+    font-size: 26px;
+    cursor: pointer;
+    color: #777;
+}
+
+.close-btn:hover {
+    color: black;
+}
+
+
+.sidebar ul {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 14px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+
+@media (max-width: 1200px) {
+
+
+    .nav-links {
+        display: none;
+    }
+
+
+    .menu-btn {
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    .sidebar {
+        width: 100%;
+        max-width: none;
+    }
+}

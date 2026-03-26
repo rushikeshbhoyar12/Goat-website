@@ -1,0 +1,34 @@
+ .padding-large {
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+
+    .position-relative {
+      position: relative !important;
+    }
+
+    .overflow-hidden {
+      overflow: hidden !important;
+    }
+
+    .padding-medium {
+      padding-top: 4em;
+      padding-bottom: 4em;
+    }
+
+    .subscribe-content {
+      background: linear-gradient(to bottom, rgba(255, 254, 254, 1) 36%, rgba(250, 211, 211, 1) 100%);
+    }
+    
+    .display-header h1 {
+      font-size: 2.5rem;
+      font-weight: lighter;
+      margin-bottom: 0.5em;
+      font-family: times new roman, serif;
+    }
+    .display-header p {
+      font-size: 1.1rem;
+      font-weight: lighter;
+      margin-bottom: 0.5em;
+      font-family: 'Times New Roman', Times, serif;
+    }

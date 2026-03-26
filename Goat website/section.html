@@ -1,0 +1,84 @@
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+    .padding-large {
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+
+    .position-relative {
+      position: relative !important;
+    }
+
+    .overflow-hidden {
+      overflow: hidden !important;
+    }
+
+    .padding-medium {
+      padding-top: 4em;
+      padding-bottom: 4em;
+    }
+
+    .subscribe-content {
+      background: linear-gradient(to bottom, rgba(255, 254, 254, 1) 36%, rgba(250, 211, 211, 1) 100%);
+    }
+    
+    .display-header h1 {
+      font-size: 2.5rem;
+      font-weight: lighter;
+      margin-bottom: 0.5em;
+      font-family: times new roman, serif;
+    }
+    .display-header p {
+      font-size: 1.1rem;
+      font-weight: lighter;
+      margin-bottom: 0.5em;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .subscription-form button:hover{
+      background-color: black;
+    }
+    @media only screen and (max-width: 1199px) {
+    .subscription-form input.form-control, .subscription-form button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.subscription-form input{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+    
+  </style>
+
+  
+
+  <section id="subscribe" class="container-grid padding-large position-relative overflow-hidden">
+    
+    <div class="container-fluid px-20 px-md-3 px-lg-5">
+      <div class="row">
+
+        <div class="subscribe-content d-flex flex-wrap justify-content-center align-items-center padding-medium">
+
+          <div class="col-md-6 col-sm-12">
+            <div class="display-header pe-3">
+              <h1 class="text-dark text-uppercase">Subscribe Us Now</h1>
+              <p style="color:gray">Get latest news, updates and deals directly mailed to your inbox.</p>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-12">
+           <form class="subscription-form">
+            <div class="input-group flex-wrap">
+            <input class="form-control btn-rounded-none" type="email" name="email" placeholder="Your email address here" required>
+            <button type="submit" class="btn btn-primary" >Subscribe</button>
+          </div>
+           </form>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
